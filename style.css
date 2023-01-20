@@ -1,0 +1,175 @@
+body {
+    font-size: 14pt;
+    font-family: 'Arial Nova','Times New Roman';
+    background-color: #060767;
+    color: #b6b6b6;
+    background-image:url("images/FolkBlack.png")
+}
+
+h1 {
+    padding-left: 10pt;
+    text-decoration:underline;
+}
+
+h2 {
+    padding-left: 10pt;
+    text-decoration: underline;
+}
+
+.h2_1 {
+   padding-left: 10pt;
+   text-decoration: underline;
+   color: white;
+}
+
+a:link, a:visited {
+    color: darkmagenta;
+}
+
+footer {
+   font-size:small;
+   position:fixed;
+   bottom:0;
+}
+
+nav li{
+   display: inline;
+   padding: 0;
+   margin: 0;
+   padding-right: 10px;
+}
+
+nav a{
+   padding: 10px;
+   background-color: goldenrod;
+   border-top-left-radius: 30%;
+   border-top-right-radius: 30%;
+}
+
+nav a:hover{
+   padding: 10px;
+   background-color: chartreuse;
+   border-top-left-radius: 30%;
+   border-top-right-radius: 30%;
+}
+
+.Goose1 {
+   float: right;
+   padding-right: 25pt;
+}
+
+#main {
+   width: 40%;
+}
+
+.Goose2 {
+   float: left;
+   padding-left: 25pt;
+}
+
+.GustavoMe {
+   height: 200px;
+   border-radius: 40%;
+   border: 5px solid white;
+   float: right;
+   margin-right: 100px;
+   margin-top: 5px;
+}
+
+p {
+    margin-right: 360pt;
+    padding-left: 13pt;
+}
+
+.p_2
+{
+   margin-right: 0px;
+   border-right: 20px;
+   color: white;
+}
+
+.tableContent {
+   border: 2px solid white;
+   margin: 0px;
+   padding: 3px;
+   clear: both;
+   float: right;
+   margin-right: 30px;
+   margin-top: 50px;
+   font-family: ’Times New Roman’, Times, serif;
+   Font-size: large;
+}
+
+tbody > :nth-child(1) {
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+tbody > :nth-child(2) {
+   background-color: #060767;
+   color: #b6b6b6;
+   text-align: center;
+}
+
+tbody > :nth-child(3) {
+   background-color: #060767;
+   color: #b6b6b6;
+   text-align: center;
+}
+
+tbody > :nth-child(4) {
+   background-color: #060767;
+   color: #b6b6b6;
+   text-align: center;
+}
+
+tbody > :nth-child(5) {
+   background-color: #060767;
+   color: #b6b6b6;
+   text-align: center;
+}
+
+tbody > :nth-child(6) {
+   background-color: #060767;
+   color: #b6b6b6;
+   text-align: center;
+}
+
+tbody > :nth-child(7) {
+   background-color: #060767;
+   color: #b6b6b6;
+   text-align: center;
+}
+
+tbody > :nth-child(8) {
+   background-color: #060767;
+   color: #b6b6b6;
+   text-align: center;
+}
+
+tbody > tr > :nth-child(1) {
+   font-weight: bold;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+Tbody > tr > :nth-child(2) {
+   font-style: italic;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+#formContent {
+   float: left;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 10px;
+   border: 10px solid #060767;
+   background-color: darkslategrey;
+}
+
+@media only screen and (min-width: 320px) {
+
+
+}
