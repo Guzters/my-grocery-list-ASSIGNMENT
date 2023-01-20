@@ -27,5 +27,58 @@ body {
    margin: 0.5em;
    font-size: 4em;
    font-weight: lighter;
-   letter-spacing: 0.5em;
+   letter-spacing: 0.1em;
+   color: var(--purplish);
+}
+
+.newGroceryForm {
+   display: flex;
+}
+
+#newGrocery {
+   background-color: white;
+   color: var(--comment);
+   padding: 0.5em;
+   width: 20em;
+   font-size: 1.5em;
+   border-radius: 0.25em 0 0 0.25em;
+}
+
+#addBtn {
+   background: var(--redish);
+   color: var(--background);
+   padding: 0.5em;
+   font-size: 1.5em;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 0em 0.25em 0.25em 0em;
+}
+
+#addBtn:hover {
+   background: var(--purplish);
+}
+
+#groceryList {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 2em;
+   border-radius: 0.5em;
+   background-color: var(--comment);
+}
+
+.groceryItem {
+   background-color: white;
+   color: var(--background);
+   margin: 0.5em;
+   width: 24em;
+   padding: 0.5em;
+   border-radius: 0.25em;
+   text-align: center;
+}
+
+.groceryItem:hover {
+   background-color: lightblue;
+   font-weight: bold;
 }

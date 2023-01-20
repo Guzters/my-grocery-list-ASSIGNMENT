@@ -5,19 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Grocery List 📝</title>
-        <!-- <link rel="stylesheet" href="reset.css"/> -->
+        <link rel="stylesheet" href="reset.css"/>
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <h1>My Grocery List 📝</h1>
-        <form>
-            <input type="text" placeholder="Add an item to your list">
-            <button type="submit">Add</button>
+        <h1 class="title">My Grocery List 📝</h1>
+        <form class="newGroceryForm">
+            <input id="newGrocery" autocomplete="off" type="text" placeholder="Add an item to your list">
+            <button id="addBtn" type="submit">Add</button>
         </form>
-        <ul>
-            <li>Milk</li>
-            <li>Eggs</li>
-            <li>Tortillas</li>
+        <ul id="groceryList">
+            <li class="groceryItem">Milk</li>
+            <li class="groceryItem">Eggs</li>
+            <li class="groceryItem">Tortillas</li>
         </ul>
     </body>
 </html>
