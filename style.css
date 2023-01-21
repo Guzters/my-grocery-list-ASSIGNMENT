@@ -20,15 +20,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding-left: 10%;
 }
 
 .title {
    margin: 0.5em;
+   font-style: italic;
+   text-decoration: underline;
+   background-color: rgba(0, 0, 0, 0.715);
+   margin-right: auto;
+   border-radius: 0.25em;
    font-size: 4em;
    font-weight: lighter;
    letter-spacing: 0.1em;
-   color: var(--purplish);
+   color: rgb(69, 12, 202);
 }
 
 .newGroceryForm {
@@ -36,8 +41,8 @@ body {
 }
 
 #newGrocery {
-   background-color: white;
-   color: var(--comment);
+   background-color: rgba(246, 246, 246, 0.466);
+   color: rgb(255, 255, 255);
    padding: 0.5em;
    width: 20em;
    font-size: 1.5em;
@@ -61,11 +66,12 @@ body {
 #groceryList {
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: left;
    justify-content: center;
+   margin-right: auto;
    margin-top: 2em;
    border-radius: 0.5em;
-   background-color: var(--comment);
+   background-color: goldenrod;
 }
 
 .groceryItem {
@@ -76,6 +82,7 @@ body {
    padding: 0.5em;
    border-radius: 0.25em;
    text-align: center;
+   cursor: pointer;
 }
 
 .groceryItem:hover {
